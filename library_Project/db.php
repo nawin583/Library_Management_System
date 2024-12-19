@@ -6,7 +6,7 @@ class db {
         $host = 'localhost:3307';
         $dbname = 'library_managment';
         $username = 'root';
-        $password = 'Sri@1234'; // Replace with the actual password
+        $password = 'Nav@1234'; // Replace with the actual password
 
         try {
             $this->connection = new PDO("mysql:host=$host;dbname=$dbname", $username, $password);
